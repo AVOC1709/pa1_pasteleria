@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-const API_URL=import.meta.env.VITE_URL_BACKEND ||  'http://localhost:8100/api/productos' ;
+const API_URL='https://avoc.alwaysdata.net/api/productos' ;
 const ACCENT = '#FF4B22';
 
 function useReveal(threshold = 0.15) {
